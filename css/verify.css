@@ -1,0 +1,68 @@
+/* Start Verification */
+.box {
+  border: none;
+}
+.verify {
+  padding: 30px 0;
+}
+.verify h4 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 400;
+  padding: 10px;
+  line-height: 1.6;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.input-field {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.input-field input {
+  width: 45px;
+  height: 45px;
+  font-size: 1.6rem;
+  text-align: center;
+  outline: none;
+  border: 1px solid #ddd;
+}
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+  display: none;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  border: none;
+  background-color: #6ac4ff;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+form button.active {
+  background-color: #44b4fe;
+  pointer-events: auto;
+}
+form button:hover {
+  background-color: #2da3f1;
+}
+/* End Verification */
